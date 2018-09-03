@@ -1,0 +1,137 @@
+@color-white: #ffffff;
+@color-black: #000000;
+@color-green: #00cc33;
+@color-blue: rgba(104, 171, 194, 0.9);
+@color-gray94: #f0f0f0;
+@color-gray-text: #7a7a7a;
+@color-blue-text: #169bd5;
+@background-color_main: #f7f4f0;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: @color-black;
+}
+
+.container {
+  max-width: 1024px;
+}
+
+.account__header {
+  position: relative;
+  display: flex;
+  margin: 5px auto;
+  text-align: center;
+  background-color: @color-white;
+  border-bottom: 1px solid @color-gray94;
+  height: 50px;
+  align-items: center;
+}
+
+.account__title {
+  width: 100%;
+  padding: 0 15px 0 10px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: @color-black;
+  text-align: left;
+}
+
+.account__icon {
+  position: absolute;
+  left: 300px;
+  width: 50px;
+  height: 100%;
+  background-color: #0FD367;
+}
+
+.account_message-icon {
+  position: absolute;
+  right: 174px;
+  width: 30px;
+  height: 100%;
+  background-color: black;
+}
+
+.account__photo {
+  position: absolute;
+  right: 100px;
+  width: 50px;
+  height: 100%;
+  background-color: gray;
+}
+
+.account-main {
+  display: flex;
+  justify-content: space-between;
+  min-height: 700px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: @background-color_main;
+
+  &__menu {
+    width: 260px;
+  }
+
+  &__hint {
+    background-color: @color-blue;
+    height: 41px;
+    width: 100%;
+
+    &-text {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      color: @color-white;
+      font-size: 16px;
+      line-height: 41px;
+      font-weight: bold;
+    }
+  }
+}
+
+.menu {
+  width: 260px;
+  box-shadow: none;
+  box-sizing: border-box;
+
+  &__title {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  &__item {
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+
+    &-icon {
+      position: absolute;
+      right: 10px;
+      top: 20px;
+      transition: transform 0.5s;
+    }
+  }
+}
+
+.submenu__list {
+  display: none;
+  font-weight: normal;
+}
+
+.active {
+  display: block;
+}
+
+.jquery-accordion-menu {
+  width: 200px;
+}
+
+.jquery-accordion-menu .jquery-accordion-menu-header {
+  padding: 0;
+  border-bottom: 1px solid @color-gray94;
+}

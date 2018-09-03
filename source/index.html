@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Услуги Недра-Эксперт">
+    <meta name="author" content="RosComputing">
+    <title>Услуги Недра-Эксперт</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="/Bundles/css?v=TF51FXWyj1bUieV_agmWm6R40meA7lYX4DWV_nt7Zr01" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://bootstraptema.ru/snippets/menu/2017/vam.md.css">
+    <link rel="stylesheet" type="text/css" href="Content/font-awesome/fonts.css">
+    <link rel="stylesheet" type="text/css" href="Content/font-awesome/font-awesome.min.css">
+    <link href="styles/subsoil.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header-mobile">
+      <input class="menu-check" type="checkbox" id="menu-check-mobile">
+      <div class="header-mobile_panel">
+        <label for="menu-check-mobile" class="header-mobile_panel-burger">
+          <span></span>
+        </label>
+        <div class="header-mobile_panel-title"></div>
+        <div class="header-mobile_panel-btn" id="logOffMobile" onclick="window.location.href='/Account/LogOff';"></div>
+      </div>
+      <div class="header-mobile_menu">
+        <div class="header-mobile_menu-item">
+          <div class="header-mobile_menu-item-info-logo">
+            <a href="/">NEDRA EXPERT</a>
+          </div>
+          <ul class="main-menu">
+            <li class="main-menu_list">
+              <a href="/search" title="Поиск участков">поиск участков</a>
+            </li>
+            <li class="main-menu_list">
+              <a href="/document/search" title="Поиск документов">поиск документов
+              </a></li>
+              <li class="main-menu_list">
+                <a href="/ratings" title="рейтинги">рейтинги</a>
+              </li>
+              <li class="main-menu_list">
+                <a href="/analytics" title="аналитика">аналитика</a>
+              </li>
+              <li class="main-menu_list">
+                <a href="/minerals" title="справочники"> справочники</a>
+              </li>
+              <li class="main-menu_list">
+                <a href="/services" title="оценка">услуги</a>
+              </li>
+              <li class="main-menu_list">
+                <a href="/partners" title="партнеры">партнеры</a>
+              </li>
+              <li class="main-menu_list">
+                <a href="/mission" title="миссия">миссия</a>
+              </li>
+            </ul>
+            <ul class="register-menu">
+              <li class="register-menu_list"><a href="/Account/Login?ReturnUrl=%2Fpartners">вход</a></li>
+              <li class="register-menu_list"><a href="/Account/Register">регистрация</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <header class="header_menu_name">
+        <div>
+          <div class="menu-items">
+            <ul>
+              <a href="/"><div class="main-logo"></div></a>
+              <li class="menu_icon">
+                <a href="javascript:;" id="menu_icon" onclick="$(this).closest(" header").toggleClass("active");="" return="" false;"="">
+                  <span></span>
+                </a>
+              </li>
+              <li>
+                <a href="/search" title="Поиск участков">поиск участков</a>
+              </li>
+              <li>
+                <a href="/document/search" title="Поиск документов">поиск документов</a>
+              </li>
+              <li>
+                <a href="/ratings" title="рейтинги">рейтинги</a>
+              </li>
+              <li>
+                <a href="/analytics" title="аналитика">аналитика</a>
+              </li>
+              <li>
+                <a href="/services" title="оценка">услуги</a>
+              </li>
+              <li class="right">
+                <a href="/Account/Login">Вход</a>
+              </li>
+              <li class="right">
+                <a href="/Account/Register">Регистрация</a>
+              </li>
+            </ul>
+          </div>
+          <div class="dop_menu">
+            <ul>
+              <li>
+                <a href="/minerals" title="справочники">справочники</a>
+              </li>
+              <li class="center">
+                <a href="/mission">Миссия</a>
+              </li>
+              <li class="center">
+                <a href="/wip">Карты</a>
+              </li>
+              <li class="center">
+                <a href="/wip">Опросы</a>
+              </li>
+              <li class="center">
+                <a href="/partners">Партнеры</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-------------------------------CONTENT---------------------------------->
+      <div class="account__header container">
+        <p class="account__title">Кабинет недропользователя</p>
+        <div class="account__icon"></div>
+        <div class="account_message-icon"></div>
+        <div class="account__photo"></div>
+      </div>
+      <div class="account-main container">
+            <div class="account-main__menu">
+              <div class="menu jquery-accordion-menu white">
+                <div class="jquery-accordion-menu-header">
+                  <span class="menu__title">Меню</span>
+                </div>
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a href="#">Сводная информация</a>
+                  </li>
+                  <li class="menu__item"><a href="#">Мои компании</a>
+                    <i class="menu__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+                    <ul class="submenu__list">
+                      <li class="submenu__item submenu__item--company"><a href="#">ООО "Горно-геологическая компания"</a></li>
+                      <li class="submenu__item"><a class="submenu__item--new-company" href="#">Зарегистрировать компанию</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__item"><a href="#">Лицензии</a>
+                    <i class="menu__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+                    <ul class="submenu__list">
+                      <li class="submenu__item submenu__item--license"><a href="#">абн12345вэ</a></li>
+                      <li class="submenu__item submenu__item--license"><a href="#">абн54321вэ</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__item"><a href="#">Участки недр</a>
+                    <i class="menu__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+                    <ul class="submenu__list">
+                      <li class="submenu__item submenu__item--area">
+                      </li><li class="submenu__item submenu__item--area"><a href="#">Участок №2</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__item"><a href="#">Моя команда</a>
+                    <i class="menu__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+                    <ul class="submenu__list">
+                      <li class="submenu__item submenu__item--employee"><a href="#">Иванов И.И.</a></li>
+                      <li class="submenu__item submenu__item--employee"><a href="#">Петров П.П.</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__item"><a href="#">Геологические отчеты</a></li>
+                </ul>
+              </div>
+            </div>
+
+        <div class="account-main__hint">
+          <p class="account-main__hint-text">Выберите действие</p>
+        </div>
+
+      </div>
+      <!-------------------------------CONTENT---------------------------------->
+      <div class="footer">
+        <div class="footer_item">
+          <div class="footer_item-column">
+            <ul class="footer_item-column-1">
+              <a href="/"><div class="main-logo"></div></a>
+              <li class="">
+                <a href="/search">Поиск участков</a>
+              </li>
+              <li class="">
+                <a href="/ratings">Рейтинги</a>
+              </li>
+              <li class="">
+                <a href="/analytics">Аналитика</a>
+              </li>
+              <li class="">
+                <a href="/minerals ">Справочники</a>
+              </li>
+              <li class="">
+                <a href="/services">Услуги</a>
+              </li>
+              <li class="">
+                <a href="/confidential">Политика конфиденциальности</a>
+              </li>
+              <li class="copyright">
+                © 2018 Nedra-Expert
+              </li>
+            </ul>
+          </div>
+          <div class="footer_item-column">
+            <ul class="footer_item-column-3">
+              <li class="">
+                <a href="/about-us">О нас</a>
+              </li>
+              <li class="">
+                <a href="/contacts">Контакты</a>
+              </li>
+              <li class="">
+                <a href="/offer">Пользовательское соглашение</a>
+              </li>
+              <li class="li-text-color">
+                <a href="tel:+74951158916">+7 (495) 115-8916</a>
+              </li>
+              <li class="li-text-color">
+                <a href="mailto:info@nedraexpert.ru">info@nedraexpert.ru</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_item-column">
+            <ul class="footer_item-column-3">
+              <li class="li-text-color">
+                <a href="/Account/Login?returnUrl=%2Fpartners">Вход</a>
+              </li>
+              <li class="li-text-color">
+                <a href="/Account/Register">Регистрация</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_item-column footer_item-column-4">
+            <p>Разработано в «Роскомпьютинг»</p>
+            <a href="http://www.roscomputing.com/ru/Main.aspx" target="_blank">
+              <img src="img/rc_logo.png" title="RosComputing">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-mobile">
+        <div class="footer-mobile_item">
+          <div class="footer-mobile_item-column">
+            <ul class="footer-mobile_item-column-1">
+              <li class="">
+                <a href="/search">Поиск участков</a>
+              </li>
+              <li class="">
+                <a href="/ratings">Рейтинги</a>
+              </li>
+              <li class="">
+                <a href="/analytics">Аналитика</a>
+              </li>
+              <li class="">
+                <a href="/minerals ">Справочники</a>
+              </li>
+              <li class="">
+                <a href="/services">Услуги</a>
+              </li>
+              <li class="">
+                <a href="/confidential">Политика конфиденциальности</a>
+              </li>
+              <li class="">
+                <a href="/about-us">О нас</a>
+              </li>
+              <li class="">
+                <a href="/contacts">Контакты</a>
+              </li>
+              <li class="">
+                <a href="/offer">Пользовательское соглашение</a>
+              </li>
+              <li class="li-text-color">
+                <a href="tel:+74951158916">+7 (495) 115-8916</a>
+              </li>
+              <li class="li-text-color">
+                <a href="mailto:info@nedraexpert.ru">info@nedraexpert.ru</a>
+              </li>
+              <li class="copyright">
+                © 2018 Nedra-Expert
+              </li>
+            </ul>
+          </div>
+          <div class="footer-mobile_item-column">
+            <ul class="footer-mobile_item-column-2">
+              <li class="li-text-color">
+                <a href="/Account/Login?returnUrl=%2Fpartners">Вход</a>
+              </li>
+              <li class="li-text-color">
+                <a href="/Account/Register">Регистрация</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-mobile_item-end">
+          <p>Разработано в «Роскомпьютинг»</p>
+          <a href="http://www.roscomputing.com/ru/Main.aspx" target="_blank">
+            <img src="img/rc_logo.png" title="RosComputing">
+          </a>
+        </div>
+      </div>
+      <script src="js/general.js"></script>
+  </body>
+</html>
