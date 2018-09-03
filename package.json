@@ -48,6 +48,6 @@
   "dependencies": {
     "csscomb": "^4.2.0",
     "normalize.less": "^1.0.0",
-    "npm": "^6.0.1"
+    "npm": "^6.4.1"
   }
 }
