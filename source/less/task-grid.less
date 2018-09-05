@@ -1,0 +1,35 @@
+.task-grid {
+  width: 100%;
+  border: 1px solid @color-black;
+  font-size: 14px;
+
+  &__row {
+    height: 35px;
+    text-align: center;
+
+    &--header {
+      height: 49px;
+    }
+  }
+
+  &__cell {
+    width: 153px;
+    border: 1px solid @color-black;
+
+    &--regular {
+      color: @color-black;
+      font-weight: bold;
+    }
+
+    &--medium {
+      color: @color-orange;
+      font-weight: bold;
+    }
+
+    &--high {
+      color: @color-red;
+      font-weight: bold;
+    }
+
+  }
+}

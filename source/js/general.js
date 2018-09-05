@@ -1,12 +1,12 @@
 'use strict';
 
 (function () {
-    var menu = document.querySelector('.menu');
+    var menu = document.querySelector('.sidebar');
     var currentItem;
 
 // удаление класса active у дочерних элементов
   function setSubmenuInactive() {
-    var submenuList = currentItem.querySelector('.submenu__list');
+    var submenuList = currentItem.querySelector('.sidebar__sublist');
     if(submenuList) {
       submenuList.classList.remove('active');
     }
@@ -39,7 +39,7 @@
 
 // подставление класса active у элемента
     function setItemActive(item) {
-      var submenuList = item.querySelector('.submenu__list');
+      var submenuList = item.querySelector('.sidebar__sublist');
       item.classList.add('active');
       if (submenuList) {
         submenuList.classList.add('active');
@@ -48,7 +48,7 @@
 
 // обработка нажатия на родительский элемент меню
     function onItemClick(evt) {
-      var item = evt.target.closest('.menu__item');
+      var item = evt.target.closest('.sidebar__item');
       if(item) {
         setItemInactive();
         setIconActive(item);
@@ -57,5 +57,5 @@
       }
     }
 
-    menu.addEventListener('click', onItemClick);
+    menu.addEventListener('mousedown', onItemClick);
   })();
