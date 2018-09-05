@@ -1,0 +1,89 @@
+.company {
+  background-color: @color-white;
+  height: 310px;
+  padding: 30px;
+  border: 1px solid @color-gray94;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  box-shadow: 0 5px 10px -2px #aba7a7;
+  font-size: 16px;
+
+  &__title {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    color: @color-Davis-gray;
+  }
+
+  &__rating {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &-title {
+      margin-right: 20px;
+    }
+
+    &-status {
+      text-transform: uppercase;
+
+      &--good {
+        font-weight: bold;
+        color: @color-light-green;
+      }
+
+      &--bad {
+        color: @color-red;
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__contacts-list {
+    margin: 0;
+    padding: 0;
+    width: 340px;
+    list-style: none;
+  }
+
+  &__contacts-item {
+    position: relative;
+    padding: 15px 0 15px 40px;
+    line-height: 22px;
+
+    &-icon {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translate(-50%, -50%);
+      color: @color-gray;
+    }
+  }
+
+  &__chief-info-list {
+    margin: 0;
+    padding: 0;
+    width: 340px;
+    list-style: none;
+  }
+
+  &__chief-info-item {
+    margin: 0 0 15px 20px;
+    line-height: 22px;
+  }
+
+  &__chief-info-type {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 15px;
+    color: @color-gray;
+  }
+}
