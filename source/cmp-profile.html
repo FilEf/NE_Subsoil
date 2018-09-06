@@ -17,107 +17,6 @@
     <link href="styles/subsoil.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="header-mobile">
-      <input class="sidebar-check" type="checkbox" id="sidebar-check-mobile">
-      <div class="header-mobile_panel">
-        <label for="sidebar-check-mobile" class="header-mobile_panel-burger">
-          <span></span>
-        </label>
-        <div class="header-mobile_panel-title"></div>
-        <div class="header-mobile_panel-btn" id="logOffMobile" onclick="window.location.href='/Account/LogOff';"></div>
-      </div>
-      <div class="header-mobile_sidebar">
-        <div class="header-mobile_sidebar-item">
-          <div class="header-mobile_sidebar-item-info-logo">
-            <a href="/">NEDRA EXPERT</a>
-          </div>
-          <ul class="main-sidebar">
-            <li class="main-sidebar_list">
-              <a href="/search" title="Поиск участков">поиск участков</a>
-            </li>
-            <li class="main-sidebar_list">
-              <a href="/document/search" title="Поиск документов">поиск документов
-              </a></li>
-              <li class="main-sidebar_list">
-                <a href="/ratings" title="рейтинги">рейтинги</a>
-              </li>
-              <li class="main-sidebar_list">
-                <a href="/analytics" title="аналитика">аналитика</a>
-              </li>
-              <li class="main-sidebar_list">
-                <a href="/minerals" title="справочники"> справочники</a>
-              </li>
-              <li class="main-sidebar_list">
-                <a href="/services" title="оценка">услуги</a>
-              </li>
-              <li class="main-sidebar_list">
-                <a href="/partners" title="партнеры">партнеры</a>
-              </li>
-              <li class="main-sidebar_list">
-                <a href="/mission" title="миссия">миссия</a>
-              </li>
-            </ul>
-            <ul class="register-sidebar">
-              <li class="register-sidebar_list"><a href="/Account/Login?ReturnUrl=%2Fpartners">вход</a></li>
-              <li class="register-sidebar_list"><a href="/Account/Register">регистрация</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <header class="header_sidebar_name">
-        <div>
-          <div class="sidebar-items">
-            <ul>
-              <a href="/"><div class="main-logo"></div></a>
-              <li class="sidebar_icon">
-                <a href="javascript:;" id="sidebar_icon" onclick="$(this).closest(" header").toggleClass("active");="" return="" false;"="">
-                  <span></span>
-                </a>
-              </li>
-              <li>
-                <a href="/search" title="Поиск участков">поиск участков</a>
-              </li>
-              <li>
-                <a href="/document/search" title="Поиск документов">поиск документов</a>
-              </li>
-              <li>
-                <a href="/ratings" title="рейтинги">рейтинги</a>
-              </li>
-              <li>
-                <a href="/analytics" title="аналитика">аналитика</a>
-              </li>
-              <li>
-                <a href="/services" title="оценка">услуги</a>
-              </li>
-              <li class="right">
-                <a href="/Account/Login">Вход</a>
-              </li>
-              <li class="right">
-                <a href="/Account/Register">Регистрация</a>
-              </li>
-            </ul>
-          </div>
-          <div class="dop_sidebar">
-            <ul>
-              <li>
-                <a href="/minerals" title="справочники">справочники</a>
-              </li>
-              <li class="center">
-                <a href="/mission">Миссия</a>
-              </li>
-              <li class="center">
-                <a href="/wip">Карты</a>
-              </li>
-              <li class="center">
-                <a href="/wip">Опросы</a>
-              </li>
-              <li class="center">
-                <a href="/partners">Партнеры</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </header>
     <div class="main container">
       <!-------------------------------HEADER START---------------------------------->
       <div class="account__header container">
@@ -127,72 +26,72 @@
         <div class="account__photo"></div>
       </div>
       <!-------------------------------HEADER END---------------------------------->
-
       <div class="wrapper">
         <!-------------------------------sidebar START---------------------------------->
-            <div class="sidebar">
-              <div class="sidebar__header">
-                <span class="sidebar__title">Меню</span>
-              </div>
-              <ul class="sidebar__list">
-                <li class="sidebar__item">
-                  <a href="index.html">Сводная информация</a>
+        <div class="sidebar">
+          <div class="sidebar__header">
+            <span class="sidebar__title">Меню</span>
+          </div>
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
+              <a href="index.html">Сводная информация</a>
+            </li>
+            <li class="sidebar__item active">
+              <a href="cmp-profile.html">Мои компании</a>
+              <i class="sidebar__item-icon fa fa-chevron-up" aria-hidden="true"></i>
+              <ul class="sidebar__sublist active">
+                <li class="sidebar__subitem sidebar__subitem--company">
+                  <a href="#">ООО "Горно-геологическая компания"</a>
                 </li>
-                <li class="sidebar__item active">
-                  <a>Мои компании</a>
-                  <i class="sidebar__item-icon fa fa-chevron-up" aria-hidden="true"></i>
-                  <ul class="sidebar__sublist active">
-                    <li class="sidebar__subitem sidebar__subitem--company">
-                      <a href="#">ООО "Горно-геологическая компания"</a>
-                    </li>
-                    <li class="sidebar__subitem">
-                      <a class="sidebar__subitem--new-company" href="#">Зарегистрировать компанию</a>
-                    </li>
-                  </ul>
+                <li class="sidebar__subitem">
+                  <a class="sidebar__subitem--new-company" href="#">Зарегистрировать компанию</a>
                 </li>
-                <li class="sidebar__item">
-                  <a href="#">Лицензии</a>
-                  <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="sidebar__sublist">
-                    <li class="sidebar__subitem sidebar__subitem--license">
-                      <a href="#">абн12345вэ</a>
-                    </li>
-                    <li class="sidebar__subitem sidebar__subitem--license">
-                      <a href="#">абн54321вэ</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="sidebar__item">
-                  <a href="#">Участки недр</a>
-                  <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="sidebar__sublist">
-                    <li class="sidebar__subitem sidebar__subitem--area">
-                      <a href="#">Участок №2</a>
-                      </li>
-                  </ul>
-                </li><li class="sidebar__item">
-                  <a href="#">Моя команда</a>
-                  <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="sidebar__sublist">
-                    <li class="sidebar__subitem sidebar__subitem--employee">
-                      <a href="#">Иванов И.И.</a>
-                    </li>
-                    <li class="sidebar__subitem sidebar__subitem--employee">
-                      <a href="#">Петров П.П.</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="sidebar__item"><a href="#">Геологические отчеты</a></li>
               </ul>
-            </div>
+            </li>
+            <li class="sidebar__item">
+              <a href="#">Лицензии</a>
+              <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="sidebar__sublist">
+                <li class="sidebar__subitem sidebar__subitem--license">
+                  <a href="#">абн12345вэ</a>
+                </li>
+                <li class="sidebar__subitem sidebar__subitem--license">
+                  <a href="#">абн54321вэ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="#">Участки недр</a>
+              <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="sidebar__sublist">
+                <li class="sidebar__subitem sidebar__subitem--area">
+                  <a href="#">Участок №2</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="#">Моя команда</a>
+              <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="sidebar__sublist">
+                <li class="sidebar__subitem sidebar__subitem--employee">
+                  <a href="#">Иванов И.И.</a>
+                </li>
+                <li class="sidebar__subitem sidebar__subitem--employee">
+                  <a href="#">Петров П.П.</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item"><a href="#">Геологические отчеты</a></li>
+          </ul>
+        </div>
         <!-------------------------------sidebar END---------------------------------->
 
         <!-------------------------------WORK-SPACE BEGIN---------------------------------->
-      <div class="work-space">
-        <div class="work-space__hint-block">
-          <p class="work-space__hint-text">Вам нужно зарегистрировать компанию</p>
-        </div>
-        <div class="work-space__content">
+        <div class="work-space">
+          <div class="work-space__hint-block">
+            <p class="work-space__hint-text">Профиль компании  ООО "Горно-геологическая компания"</p>
+          </div>
+          <div class="work-space__content">
           <div class="company">
             <h3 class="company__title">ООО "Горно-геологическая компания"</h3>
             <ul class="company__rating">
@@ -224,8 +123,8 @@
         </div>
       </div>
         <!-------------------------------WORK-SPACE END---------------------------------->
-     </div>
-     </div>
+      </div>
+    </div>
 
       <div class=" footer" =""="">
         <div class="footer_item">

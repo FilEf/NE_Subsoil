@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Кабинет недропользователя">
+    <meta name="description" content="Кабинет недропользователяnpm">
     <meta name="author" content="RosComputing">
     <title>Услуги Недра-Эксперт</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -17,107 +17,6 @@
     <link href="styles/subsoil.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="header-mobile">
-      <input class="sidebar-check" type="checkbox" id="sidebar-check-mobile">
-      <div class="header-mobile_panel">
-        <label for="sidebar-check-mobile" class="header-mobile_panel-burger">
-          <span></span>
-        </label>
-        <div class="header-mobile_panel-title"></div>
-        <div class="header-mobile_panel-btn" id="logOffMobile" onclick="window.location.href='/Account/LogOff';"></div>
-      </div>
-      <div class="header-mobile_sidebar">
-        <div class="header-mobile_sidebar-item">
-          <div class="header-mobile_sidebar-item-info-logo">
-            <a href="/">NEDRA EXPERT</a>
-          </div>
-          <ul class="main-sidebar">
-            <li class="main-sidebar_list">
-              <a href="/search" title="Поиск участков">поиск участков</a>
-            </li>
-            <li class="main-sidebar_list">
-              <a href="/document/search" title="Поиск документов">поиск документов
-              </a></li>
-              <li class="main-sidebar_list">
-                <a href="/ratings" title="рейтинги">рейтинги</a>
-              </li>
-              <li class="main-sidebar_list">
-                <a href="/analytics" title="аналитика">аналитика</a>
-              </li>
-              <li class="main-sidebar_list">
-                <a href="/minerals" title="справочники"> справочники</a>
-              </li>
-              <li class="main-sidebar_list">
-                <a href="/services" title="оценка">услуги</a>
-              </li>
-              <li class="main-sidebar_list">
-                <a href="/partners" title="партнеры">партнеры</a>
-              </li>
-              <li class="main-sidebar_list">
-                <a href="/mission" title="миссия">миссия</a>
-              </li>
-            </ul>
-            <ul class="register-sidebar">
-              <li class="register-sidebar_list"><a href="/Account/Login?ReturnUrl=%2Fpartners">вход</a></li>
-              <li class="register-sidebar_list"><a href="/Account/Register">регистрация</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <header class="header_sidebar_name">
-        <div>
-          <div class="sidebar-items">
-            <ul>
-              <a href="/"><div class="main-logo"></div></a>
-              <li class="sidebar_icon">
-                <a href="javascript:;" id="sidebar_icon" onclick="$(this).closest(" header").toggleClass("active");="" return="" false;"="">
-                  <span></span>
-                </a>
-              </li>
-              <li>
-                <a href="/search" title="Поиск участков">поиск участков</a>
-              </li>
-              <li>
-                <a href="/document/search" title="Поиск документов">поиск документов</a>
-              </li>
-              <li>
-                <a href="/ratings" title="рейтинги">рейтинги</a>
-              </li>
-              <li>
-                <a href="/analytics" title="аналитика">аналитика</a>
-              </li>
-              <li>
-                <a href="/services" title="оценка">услуги</a>
-              </li>
-              <li class="right">
-                <a href="/Account/Login">Вход</a>
-              </li>
-              <li class="right">
-                <a href="/Account/Register">Регистрация</a>
-              </li>
-            </ul>
-          </div>
-          <div class="dop_sidebar">
-            <ul>
-              <li>
-                <a href="/minerals" title="справочники">справочники</a>
-              </li>
-              <li class="center">
-                <a href="/mission">Миссия</a>
-              </li>
-              <li class="center">
-                <a href="/wip">Карты</a>
-              </li>
-              <li class="center">
-                <a href="/wip">Опросы</a>
-              </li>
-              <li class="center">
-                <a href="/partners">Партнеры</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </header>
     <div class="main container">
       <!-------------------------------HEADER START---------------------------------->
       <div class="account__header container">
@@ -127,294 +26,294 @@
         <div class="account__photo"></div>
       </div>
       <!-------------------------------HEADER END---------------------------------->
-
       <div class="wrapper">
         <!-------------------------------sidebar START---------------------------------->
-            <div class="sidebar">
-              <div class="sidebar__header">
-                <span class="sidebar__title">Меню</span>
-              </div>
-              <ul class="sidebar__list">
-                <li class="sidebar__item active">
-                  <a href="#">Сводная информация</a>
+        <div class="sidebar">
+          <div class="sidebar__header">
+            <span class="sidebar__title">Меню</span>
+          </div>
+          <ul class="sidebar__list">
+            <li class="sidebar__item active">
+              <a href="#">Сводная информация</a>
+            </li>
+            <li class="sidebar__item">
+              <a href="cmp-profile.html">Мои компании</a>
+              <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="sidebar__sublist">
+                <li class="sidebar__subitem sidebar__subitem--company">
+                  <a href="#">ООО "Горно-геологическая компания"</a>
                 </li>
-                <li class="sidebar__item">
-                  <a href="cmp-profile.html">Мои компании</a>
-                  <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="sidebar__sublist">
-                    <li class="sidebar__subitem sidebar__subitem--company">
-                      <a href="#">ООО "Горно-геологическая компания"</a>
-                    </li>
-                    <li class="sidebar__subitem">
-                      <a class="sidebar__subitem--new-company" href="#">Зарегистрировать компанию</a>
-                    </li>
-                  </ul>
+                <li class="sidebar__subitem">
+                  <a class="sidebar__subitem--new-company" href="#">Зарегистрировать компанию</a>
                 </li>
-                <li class="sidebar__item">
-                  <a href="#">Лицензии</a>
-                  <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="sidebar__sublist">
-                    <li class="sidebar__subitem sidebar__subitem--license">
-                      <a href="#">абн12345вэ</a>
-                    </li>
-                    <li class="sidebar__subitem sidebar__subitem--license">
-                      <a href="#">абн54321вэ</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="sidebar__item">
-                  <a href="#">Участки недр</a>
-                  <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="sidebar__sublist">
-                    <li class="sidebar__subitem sidebar__subitem--area">
-                      <a href="#">Участок №2</a>
-                      </li>
-                  </ul>
-                </li><li class="sidebar__item">
-                  <a href="#">Моя команда</a>
-                  <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="sidebar__sublist">
-                    <li class="sidebar__subitem sidebar__subitem--employee">
-                      <a href="#">Иванов И.И.</a>
-                    </li>
-                    <li class="sidebar__subitem sidebar__subitem--employee">
-                      <a href="#">Петров П.П.</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="sidebar__item"><a href="#">Геологические отчеты</a></li>
               </ul>
-            </div>
+            </li>
+            <li class="sidebar__item">
+              <a href="#">Лицензии</a>
+              <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="sidebar__sublist">
+                <li class="sidebar__subitem sidebar__subitem--license">
+                  <a href="#">абн12345вэ</a>
+                </li>
+                <li class="sidebar__subitem sidebar__subitem--license">
+                  <a href="#">абн54321вэ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="#">Участки недр</a>
+              <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="sidebar__sublist">
+                <li class="sidebar__subitem sidebar__subitem--area">
+                  <a href="#">Участок №2</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="#">Моя команда</a>
+              <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="sidebar__sublist">
+                <li class="sidebar__subitem sidebar__subitem--employee">
+                  <a href="#">Иванов И.И.</a>
+                </li>
+                <li class="sidebar__subitem sidebar__subitem--employee">
+                  <a href="#">Петров П.П.</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item"><a href="#">Геологические отчеты</a></li>
+          </ul>
+        </div>
         <!-------------------------------sidebar END---------------------------------->
 
         <!-------------------------------WORK-SPACE BEGIN---------------------------------->
-      <div class="work-space">
-        <div class="work-space__hint-block">
-          <p class="work-space__hint-text">Вам нужно зарегистрировать компанию</p>
-        </div>
-        <div class="work-space__content">
-          <div class="summary">
-            <section class="summary__count">
-              <ul class="summary__count-list">
-                <li class="summary__count-item">
-                  <span class="summary__count-title">Лицензий</span>
-                  <span class="summary__count-value">2</span>
-                </li>
-                <li class="summary__count-item">
-                  <span class="summary__count-title">Участков недр</span>
-                  <span class="summary__count-value">2</span>
-                </li>
-                <li class="summary__count-item">
-                  <span class="summary__count-title">Компаний</span>
-                  <span class="summary__count-value">1</span>
-                </li>
-              </ul>
-            </section>
-            <section class="summary__tasks">
-              <table class="task-grid">
-                <tr class="task-grid__row task-grid__row--header">
-                  <td class="task-grid__cell">Задачи</td>
-                  <td class="task-grid__cell">Объект задачи</td>
-                  <td class="task-grid__cell">Дата</td>
-                  <td class="task-grid__cell">Осталось времени</td>
-                  <td class="task-grid__cell">Важность задачи</td>
-                </tr>
-                <tr class="task-grid__row">
-                  <td class="task-grid__cell">Сдача отчетности</td>
-                  <td class="task-grid__cell">КЕМ12345ТЭ</td>
-                  <td class="task-grid__cell">20.04.2018</td>
-                  <td class="task-grid__cell">31 день</td>
-                  <td class="task-grid__cell task-task-grid__cell--regular">обычная</td>
-                </tr>
-                <tr class="task-grid__row">
-                  <td class="task-grid__cell">Продление срока действия</td>
-                  <td class="task-grid__cell">ИРК54321БЭ</td>
-                  <td class="task-grid__cell">31.12.2018</td>
-                  <td class="task-grid__cell">286 дней</td>
-                  <td class="task-grid__cell task-grid__cell--high">высокая</td>
-                </tr>
-                <tr class="task-grid__row">
-                  <td class="task-grid__cell">Сдача геологического отчета</td>
-                  <td class="task-grid__cell">КЕМ12345ТЭ</td>
-                  <td class="task-grid__cell">01.05.2018</td>
-                  <td class="task-grid__cell">42 дня</td>
-                  <td class="task-grid__cell task-grid__cell--medium">средняя</td>
-                </tr>
-                <tr class="task-grid__row">
-                  <td class="task-grid__cell">Экспертиза проект геологического изучения</td>
-                  <td class="task-grid__cell">ИРК54321БЭ</td>
-                  <td class="task-grid__cell">01.06.2018</td>
-                  <td class="task-grid__cell">73 дня</td>
-                  <td class="task-grid__cell task-grid__cell--high">высокая</td>
-                </tr>
-              </table>
-            </section>
-            <section class="summary__info-block">
-              <div class="new-areas">
-                <div class="new-areas__title">
-                  <h4 class="new-areas__title-general">Интересные участки</h4>
-                  <p class="new-areas__title-descr">В нерапределенный фонд добавилось лакомых участков недр с золотом</p>
+        <div class="work-space">
+          <div class="work-space__hint-block">
+            <p class="work-space__hint-text">Вам нужно зарегистрировать компанию</p>
+          </div>
+          <div class="work-space__content">
+            <div class="summary">
+              <section class="summary__count">
+                <ul class="summary__count-list">
+                  <li class="summary__count-item">
+                    <span class="summary__count-title">Лицензий</span>
+                    <span class="summary__count-value">2</span>
+                  </li>
+                  <li class="summary__count-item">
+                    <span class="summary__count-title">Участков недр</span>
+                    <span class="summary__count-value">2</span>
+                  </li>
+                  <li class="summary__count-item">
+                    <span class="summary__count-title">Компаний</span>
+                    <span class="summary__count-value">1</span>
+                  </li>
+                </ul>
+              </section>
+              <section class="summary__tasks">
+                <table class="task-grid">
+                  <tr class="task-grid__row task-grid__row--header">
+                    <td class="task-grid__cell">Задачи</td>
+                    <td class="task-grid__cell">Объект задачи</td>
+                    <td class="task-grid__cell">Дата</td>
+                    <td class="task-grid__cell">Осталось времени</td>
+                    <td class="task-grid__cell">Важность задачи</td>
+                  </tr>
+                  <tr class="task-grid__row">
+                    <td class="task-grid__cell">Сдача отчетности</td>
+                    <td class="task-grid__cell">КЕМ12345ТЭ</td>
+                    <td class="task-grid__cell">20.04.2018</td>
+                    <td class="task-grid__cell">31 день</td>
+                    <td class="task-grid__cell task-task-grid__cell--regular">обычная</td>
+                  </tr>
+                  <tr class="task-grid__row">
+                    <td class="task-grid__cell">Продление срока действия</td>
+                    <td class="task-grid__cell">ИРК54321БЭ</td>
+                    <td class="task-grid__cell">31.12.2018</td>
+                    <td class="task-grid__cell">286 дней</td>
+                    <td class="task-grid__cell task-grid__cell--high">высокая</td>
+                  </tr>
+                  <tr class="task-grid__row">
+                    <td class="task-grid__cell">Сдача геологического отчета</td>
+                    <td class="task-grid__cell">КЕМ12345ТЭ</td>
+                    <td class="task-grid__cell">01.05.2018</td>
+                    <td class="task-grid__cell">42 дня</td>
+                    <td class="task-grid__cell task-grid__cell--medium">средняя</td>
+                  </tr>
+                  <tr class="task-grid__row">
+                    <td class="task-grid__cell">Экспертиза проект геологического изучения</td>
+                    <td class="task-grid__cell">ИРК54321БЭ</td>
+                    <td class="task-grid__cell">01.06.2018</td>
+                    <td class="task-grid__cell">73 дня</td>
+                    <td class="task-grid__cell task-grid__cell--high">высокая</td>
+                  </tr>
+                </table>
+              </section>
+              <section class="summary__info-block">
+                <div class="new-areas">
+                  <div class="new-areas__title">
+                    <h4 class="new-areas__title-general">Интересные участки</h4>
+                    <p class="new-areas__title-descr">В нерапределенный фонд добавилось лакомых участков недр с золотом</p>
+                  </div>
+                  <ul class="new-areas__list">
+                    <li class="new-areas__item">
+                      <a class="new-areas__item-title">Кукисвумчоррский участок Янгильдельгинского месторождения</a>
+                      <span class="new-areas__item-subject">Калининградская область</span>
+                      <p class="new-areas__item-pi">Золотое руно, изумруды, бриллианты, гипс</p>
+                    </li>
+                    <li class="new-areas__item">
+                      <a class="new-areas__item-title">Кукисвумчоррский участок Янгильдельгинского месторождения</a>
+                      <span class="new-areas__item-subject">Калининградская область</span>
+                      <p class="new-areas__item-pi">Золотое руно, изумруды, бриллианты, гипс</p>
+                    </li>
+                    <li class="new-areas__item">
+                      <a class="new-areas__item-title">Кукисвумчоррский участок Янгильдельгинского месторождения</a>
+                      <span class="new-areas__item-subject">Калининградская область</span>
+                      <p class="new-areas__item-pi">Золотое руно, изумруды, бриллианты, гипс</p>
+                    </li>
+                  </ul>
                 </div>
-                <ul class="new-areas__list">
-                  <li class="new-areas__item">
-                    <a class="new-areas__item-title">Кукисвумчоррский участок Янгильдельгинского месторождения</a>
-                    <span class="new-areas__item-subject">Калининградская область</span>
-                    <p class="new-areas__item-pi">Золотое руно, изумруды, бриллианты, гипс</p>
-                  </li>
-                  <li class="new-areas__item">
-                    <a class="new-areas__item-title">Кукисвумчоррский участок Янгильдельгинского месторождения</a>
-                    <span class="new-areas__item-subject">Калининградская область</span>
-                    <p class="new-areas__item-pi">Золотое руно, изумруды, бриллианты, гипс</p>
-                  </li>
-                  <li class="new-areas__item">
-                    <a class="new-areas__item-title">Кукисвумчоррский участок Янгильдельгинского месторождения</a>
-                    <span class="new-areas__item-subject">Калининградская область</span>
-                    <p class="new-areas__item-pi">Золотое руно, изумруды, бриллианты, гипс</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="subsoil-guide">
-                <p class="subsoil-guide__header">Справочник недропользователя</p>
-                <ul class="subsoil-guide__list">
-                  <li class="subsoil-guide__item">Как искать недра</li>
-                  <li class="subsoil-guide__item">Как начертить на карте контур</li>
-                  <li class="subsoil-guide__item">Как эффективно пользоваться "избранным"</li>
-                  <li class="subsoil-guide__item">11 правил начинающего недропользователя</li>
-                </ul>
-                <p class="subsoil-guide__footer"><a>Все это и не только на страницах нашего справочника</a></p>
-              </div>
-            </section>
+                <div class="subsoil-guide">
+                  <p class="subsoil-guide__header">Справочник недропользователя</p>
+                  <ul class="subsoil-guide__list">
+                    <li class="subsoil-guide__item">Как искать недра</li>
+                    <li class="subsoil-guide__item">Как начертить на карте контур</li>
+                    <li class="subsoil-guide__item">Как эффективно пользоваться "избранным"</li>
+                    <li class="subsoil-guide__item">11 правил начинающего недропользователя</li>
+                  </ul>
+                  <p class="subsoil-guide__footer"><a>Все это и не только на страницах нашего справочника</a></p>
+                </div>
+              </section>
+            </div>
           </div>
         </div>
       </div>
+    </div>
         <!-------------------------------WORK-SPACE END---------------------------------->
-     </div>
-
-      <div class="footer">
-        <div class="footer_item">
-          <div class="footer_item-column">
-            <ul class="footer_item-column-1">
-              <a href="/"><div class="main-logo"></div></a>
-              <li class="">
-                <a href="/search">Поиск участков</a>
-              </li>
-              <li class="">
-                <a href="/ratings">Рейтинги</a>
-              </li>
-              <li class="">
-                <a href="/analytics">Аналитика</a>
-              </li>
-              <li class="">
-                <a href="/minerals ">Справочники</a>
-              </li>
-              <li class="">
-                <a href="/services">Услуги</a>
-              </li>
-              <li class="">
-                <a href="/confidential">Политика конфиденциальности</a>
-              </li>
-              <li class="copyright">
-                © 2018 Nedra-Expert
-              </li>
-            </ul>
-          </div>
-          <div class="footer_item-column">
-            <ul class="footer_item-column-3">
-              <li class="">
-                <a href="/about-us">О нас</a>
-              </li>
-              <li class="">
-                <a href="/contacts">Контакты</a>
-              </li>
-              <li class="">
-                <a href="/offer">Пользовательское соглашение</a>
-              </li>
-              <li class="li-text-color">
-                <a href="tel:+74951158916">+7 (495) 115-8916</a>
-              </li>
-              <li class="li-text-color">
-                <a href="mailto:info@nedraexpert.ru">info@nedraexpert.ru</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer_item-column">
-            <ul class="footer_item-column-3">
-              <li class="li-text-color">
-                <a href="/Account/Login?returnUrl=%2Fpartners">Вход</a>
-              </li>
-              <li class="li-text-color">
-                <a href="/Account/Register">Регистрация</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer_item-column footer_item-column-4">
-            <p>Разработано в «Роскомпьютинг»</p>
-            <a href="http://www.roscomputing.com/ru/Main.aspx" target="_blank">
-              <img src="img/rc_logo.png" title="RosComputing">
-            </a>
-          </div>
+    <div class="footer">
+      <div class="footer_item">
+        <div class="footer_item-column">
+          <ul class="footer_item-column-1">
+            <a href="/"><div class="main-logo"></div></a>
+            <li class="">
+              <a href="/search">Поиск участков</a>
+            </li>
+            <li class="">
+              <a href="/ratings">Рейтинги</a>
+            </li>
+            <li class="">
+              <a href="/analytics">Аналитика</a>
+            </li>
+            <li class="">
+              <a href="/minerals ">Справочники</a>
+            </li>
+            <li class="">
+              <a href="/services">Услуги</a>
+            </li>
+            <li class="">
+              <a href="/confidential">Политика конфиденциальности</a>
+            </li>
+            <li class="copyright">
+              © 2018 Nedra-Expert
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="footer-mobile">
-        <div class="footer-mobile_item">
-          <div class="footer-mobile_item-column">
-            <ul class="footer-mobile_item-column-1">
-              <li class="">
-                <a href="/search">Поиск участков</a>
-              </li>
-              <li class="">
-                <a href="/ratings">Рейтинги</a>
-              </li>
-              <li class="">
-                <a href="/analytics">Аналитика</a>
-              </li>
-              <li class="">
-                <a href="/minerals ">Справочники</a>
-              </li>
-              <li class="">
-                <a href="/services">Услуги</a>
-              </li>
-              <li class="">
-                <a href="/confidential">Политика конфиденциальности</a>
-              </li>
-              <li class="">
-                <a href="/about-us">О нас</a>
-              </li>
-              <li class="">
-                <a href="/contacts">Контакты</a>
-              </li>
-              <li class="">
-                <a href="/offer">Пользовательское соглашение</a>
-              </li>
-              <li class="li-text-color">
-                <a href="tel:+74951158916">+7 (495) 115-8916</a>
-              </li>
-              <li class="li-text-color">
-                <a href="mailto:info@nedraexpert.ru">info@nedraexpert.ru</a>
-              </li>
-              <li class="copyright">
-                © 2018 Nedra-Expert
-              </li>
-            </ul>
-          </div>
-          <div class="footer-mobile_item-column">
-            <ul class="footer-mobile_item-column-2">
-              <li class="li-text-color">
-                <a href="/Account/Login?returnUrl=%2Fpartners">Вход</a>
-              </li>
-              <li class="li-text-color">
-                <a href="/Account/Register">Регистрация</a>
-              </li>
-            </ul>
-          </div>
+        <div class="footer_item-column">
+          <ul class="footer_item-column-3">
+            <li class="">
+              <a href="/about-us">О нас</a>
+            </li>
+            <li class="">
+              <a href="/contacts">Контакты</a>
+            </li>
+            <li class="">
+              <a href="/offer">Пользовательское соглашение</a>
+            </li>
+            <li class="li-text-color">
+              <a href="tel:+74951158916">+7 (495) 115-8916</a>
+            </li>
+            <li class="li-text-color">
+              <a href="mailto:info@nedraexpert.ru">info@nedraexpert.ru</a>
+            </li>
+          </ul>
         </div>
-        <div class="footer-mobile_item-end">
+        <div class="footer_item-column">
+          <ul class="footer_item-column-3">
+            <li class="li-text-color">
+              <a href="/Account/Login?returnUrl=%2Fpartners">Вход</a>
+            </li>
+            <li class="li-text-color">
+              <a href="/Account/Register">Регистрация</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_item-column footer_item-column-4">
           <p>Разработано в «Роскомпьютинг»</p>
           <a href="http://www.roscomputing.com/ru/Main.aspx" target="_blank">
             <img src="img/rc_logo.png" title="RosComputing">
           </a>
         </div>
       </div>
-      <script src="js/general.js"></script>
-  </div></body>
+    </div>
+    <div class="footer-mobile">
+      <div class="footer-mobile_item">
+        <div class="footer-mobile_item-column">
+          <ul class="footer-mobile_item-column-1">
+            <li class="">
+              <a href="/search">Поиск участков</a>
+            </li>
+            <li class="">
+              <a href="/ratings">Рейтинги</a>
+            </li>
+            <li class="">
+              <a href="/analytics">Аналитика</a>
+            </li>
+            <li class="">
+              <a href="/minerals ">Справочники</a>
+            </li>
+            <li class="">
+              <a href="/services">Услуги</a>
+            </li>
+            <li class="">
+              <a href="/confidential">Политика конфиденциальности</a>
+            </li>
+            <li class="">
+              <a href="/about-us">О нас</a>
+            </li>
+            <li class="">
+              <a href="/contacts">Контакты</a>
+            </li>
+            <li class="">
+              <a href="/offer">Пользовательское соглашение</a>
+            </li>
+            <li class="li-text-color">
+              <a href="tel:+74951158916">+7 (495) 115-8916</a>
+            </li>
+            <li class="li-text-color">
+              <a href="mailto:info@nedraexpert.ru">info@nedraexpert.ru</a>
+            </li>
+            <li class="copyright">
+              © 2018 Nedra-Expert
+            </li>
+          </ul>
+        </div>
+        <div class="footer-mobile_item-column">
+          <ul class="footer-mobile_item-column-2">
+            <li class="li-text-color">
+              <a href="/Account/Login?returnUrl=%2Fpartners">Вход</a>
+            </li>
+            <li class="li-text-color">
+              <a href="/Account/Register">Регистрация</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-mobile_item-end">
+        <p>Разработано в «Роскомпьютинг»</p>
+        <a href="http://www.roscomputing.com/ru/Main.aspx" target="_blank">
+          <img src="img/rc_logo.png" title="RosComputing">
+        </a>
+      </div>
+    </div>
+    <script src="js/general.js"></script>
+  </body>
 </html>
