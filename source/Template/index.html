@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Услуги Недра-Эксперт">
     <meta name="author" content="RosComputing">
-    <title>Услуги Недра-Эксперт</title>
+    <title>Кабинет недропользователя</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="Content/font-awesome/fonts.css">
     <link rel="stylesheet" type="text/css" href="Content/font-awesome/font-awesome.min.css">
-    <link href="styles/subsoil.min.css" rel="stylesheet">
+    <link href="../styles/subsoil.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="header-mobile">
@@ -118,69 +118,85 @@
           </div>
         </div>
       </header>
-    <div class="container">
-      <!-------------------------------TEMPLATE START---------------------------------->
-      <div class="template">
+      <div class="main container">
+        <!-------------------------------HEADER START---------------------------------->
         <div class="account__header container">
           <p class="account__title">Кабинет недропользователя</p>
           <div class="account__icon"></div>
           <div class="account_message-icon"></div>
           <div class="account__photo"></div>
         </div>
-        <div class="account-main container">
-          <div class="account-main__menu">
-            <div class="menu">
-              <div class="menu__header">
-                <span class="menu__title">Меню</span>
-              </div>
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a href="#">Сводная информация</a>
-                </li>
-                <li class="menu__item"><a href="#">Мои компании</a>
-                  <i class="menu__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="submenu__list">
-                    <li class="submenu__item submenu__item--company"><a href="#">ООО "Горно-геологическая компания"</a></li>
-                    <li class="submenu__item"><a class="submenu__item--new-company" href="#">Зарегистрировать компанию</a></li>
-                  </ul>
-                </li>
-                <li class="menu__item"><a href="#">Лицензии</a>
-                  <i class="menu__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="submenu__list">
-                    <li class="submenu__item submenu__item--license"><a href="#">абн12345вэ</a></li>
-                    <li class="submenu__item submenu__item--license"><a href="#">абн54321вэ</a></li>
-                  </ul>
-                </li>
-                <li class="menu__item"><a href="#">Участки недр</a>
-                  <i class="menu__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="submenu__list">
-                    <li class="submenu__item submenu__item--area"><a href="#">Участок №2</a></li>
-                  </ul>
-                </li>
-                <li class="menu__item"><a href="#">Моя команда</a>
-                  <i class="menu__item-icon fa fa-chevron-down" aria-hidden="true"></i>
-                  <ul class="submenu__list">
-                    <li class="submenu__item submenu__item--employee"><a href="#">Иванов И.И.</a></li>
-                    <li class="submenu__item submenu__item--employee"><a href="#">Петров П.П.</a></li>
-                  </ul>
-                </li>
-                <li class="menu__item"><a href="#">Геологические отчеты</a></li>
-              </ul>
+        <!-------------------------------HEADER END---------------------------------->
+        <div class="wrapper">
+          <!-------------------------------sidebar START---------------------------------->
+          <div class="sidebar">
+            <div class="sidebar__header">
+              <span class="sidebar__title">Меню</span>
             </div>
+            <ul class="sidebar__list">
+              <li class="sidebar__item active">
+                <a href="#">Сводная информация</a>
+              </li>
+              <li class="sidebar__item">
+                <a href="cmp-profile.html">Мои компании</a>
+                <ul class="sidebar__sublist sidebar__sublist--company">
+                  <li class="sidebar__subitem sidebar__subitem--company">
+                    <a href="#">ООО "Горно-геологическая компания"</a>
+                  </li>
+                  <li class="sidebar__subitem sidebar__subitem--new-company">
+                    <a href="#">Зарегистрировать компанию</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar__item">
+                <a href="#">Лицензии</a>
+                <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sidebar__sublist">
+                  <li class="sidebar__subitem sidebar__subitem--license">
+                    <a href="#">абн12345вэ</a>
+                  </li>
+                  <li class="sidebar__subitem sidebar__subitem--license">
+                    <a href="#">абн54321вэ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar__item">
+                <a href="#">Участки недр</a>
+                <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sidebar__sublist">
+                  <li class="sidebar__subitem sidebar__subitem--area">
+                    <a href="#">Участок №2</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar__item">
+                <a href="#">Моя команда</a>
+                <i class="sidebar__item-icon fa fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sidebar__sublist">
+                  <li class="sidebar__subitem sidebar__subitem--employee">
+                    <a href="#">Иванов И.И.</a>
+                  </li>
+                  <li class="sidebar__subitem sidebar__subitem--employee">
+                    <a href="#">Петров П.П.</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar__item"><a href="#">Геологические отчеты</a></li>
+            </ul>
           </div>
-          <div class="account-main__hint">
-            <p class="account-main__hint-text">Выберите действие</p>
+          <!-------------------------------sidebar END---------------------------------->
+
+          <!-------------------------------WORK-SPACE BEGIN---------------------------------->
+          <div class="work-space">
+            <div class="work-space__hint-block">
+              <p class="work-space__hint-text">Вам нужно зарегистрировать компанию</p>
+            </div>
+            <div class="work-space__content">
+
+            </div>
           </div>
         </div>
       </div>
-      <!-------------------------------TEMPLATE END---------------------------------->
-      <div class="account-main__work-space">
-        <div class="work-space">
-            <!--INNER CONTENT BEGIN-->
-            <!--INNER CONTENT END-->
-          </div>
-        </div>
-     </div>
       <div class="footer">
         <div class="footer_item">
           <div class="footer_item-column">
