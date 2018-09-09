@@ -12250,3 +12250,83 @@ body {
   line-height: 15px;
   color: #999999;
 }
+.company__chief-info-data {
+  margin: 0;
+}
+.reports-type {
+  min-height: 250px;
+}
+.reports-type__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0;
+}
+.reports-type__item {
+  width: 300px;
+  min-height: 170px;
+  padding: 19px 5px 19px 5px;
+  list-style: none;
+  text-align: center;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -2px #aba7a7;
+          box-shadow: 0 5px 10px -2px #aba7a7;
+}
+.reports-type__title {
+  width: 258px;
+  margin: 0 auto;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+}
+.reports-type__title a {
+  display: block;
+  margin-bottom: 14px;
+}
+.reports {
+  width: 700px;
+  min-height: 300px;
+}
+.reports-grid {
+  width: inherit;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -2px #aba7a7;
+          box-shadow: 0 5px 10px -2px #aba7a7;
+  border: 1px solid black;
+}
+.reports-grid__row {
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid black;
+}
+.reports-grid__row--header {
+  line-height: 50px;
+}
+.reports-grid__cell {
+  position: relative;
+  width: 185px;
+  border: 1px solid black;
+}
+.reports-grid__cell--icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 140px;
+  border: none;
+}
+.reports-grid__header-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.reports-grid__icon {
+  width: 70px;
+  line-height: 40px;
+}
