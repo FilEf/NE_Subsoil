@@ -12388,7 +12388,7 @@ body {
   border: 1px solid #000000;
 }
 .report-block__table-header--first {
-  width: 200px;
+  max-width: 200px;
 }
 .report-block__table-cell {
   padding: 5px 0;
