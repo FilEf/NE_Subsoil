@@ -1,5 +1,6 @@
 .report-block {
-  padding: 25px 34px 36px 34px;
+  padding: 25px 24px 36px 24px;
+  max-width: 724px;
 
   &__title-block {
     text-align: center;
@@ -41,6 +42,7 @@
     margin-bottom: 20px;
     border: 1px solid @color-black;
     border-collapse: collapse;
+    font-size: 12px;
 
     &-row {
       text-align: center;
@@ -49,7 +51,6 @@
     &-header {
       font-weight: normal;
       border: 1px solid @color-black;
-      width: 120px;
 
       &--first {
         width: 200px;
@@ -62,6 +63,10 @@
       font-size: 12px;
       line-height: 14px;
       border: 1px solid @color-black;
+
+      &--uneditable {
+        font-size: 11px;
+      }
     }
   }
 
@@ -79,5 +84,6 @@
     border: 1px solid @color-black;
     border-radius: 4px;
     cursor: pointer;
+    text-decoration: none;
   }
 }

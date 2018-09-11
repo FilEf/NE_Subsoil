@@ -11871,9 +11871,7 @@ body {
   margin: 0 auto;
   padding: 0;
   min-height: 800px;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  max-width: 1024px;
 }
 .sidebar {
   width: 260px;
@@ -11980,13 +11978,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 .work-space__hint-block {
-  background-color: rgba(104, 171, 194, 0.9);
   height: 41px;
+  width: 764px;
+  background-color: rgba(104, 171, 194, 0.9);
 }
 .work-space__hint-text {
   padding: 0;
@@ -11998,10 +11994,7 @@ body {
   font-weight: bold;
 }
 .work-space__content {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  padding: 40px;
+  padding: 20px;
 }
 .summary__count {
   height: 41px;
@@ -12052,6 +12045,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 724px;
   min-height: 565px;
   background-color: transparent;
   -webkit-box-shadow: none;
@@ -12062,7 +12056,6 @@ body {
           box-shadow: 0 5px 10px -2px #aba7a7;
 }
 .task-grid {
-  width: 100%;
   border: 1px solid #000000;
   font-size: 14px;
   border-collapse: collapse;
@@ -12075,7 +12068,7 @@ body {
   height: 49px;
 }
 .task-grid__cell {
-  width: 153px;
+  width: 145px;
   border: 1px solid #000000;
 }
 .task-grid__cell--regular {
@@ -12138,7 +12131,7 @@ body {
   height: 185px;
   width: 334px;
   padding: 50px 0 0 0;
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
   text-align: center;
   font-size: 26px;
   font-weight: bold;
@@ -12290,6 +12283,7 @@ body {
 .reports {
   width: 700px;
   min-height: 300px;
+  margin: 0 auto;
 }
 .reports-grid {
   width: inherit;
@@ -12344,7 +12338,8 @@ body {
   margin-right: 5px;
 }
 .report-block {
-  padding: 25px 34px 36px 34px;
+  padding: 25px 24px 36px 24px;
+  max-width: 724px;
 }
 .report-block__title-block {
   text-align: center;
@@ -12383,6 +12378,7 @@ body {
   margin-bottom: 20px;
   border: 1px solid #000000;
   border-collapse: collapse;
+  font-size: 12px;
 }
 .report-block__table-row {
   text-align: center;
@@ -12390,7 +12386,6 @@ body {
 .report-block__table-header {
   font-weight: normal;
   border: 1px solid #000000;
-  width: 120px;
 }
 .report-block__table-header--first {
   width: 200px;
@@ -12401,6 +12396,9 @@ body {
   font-size: 12px;
   line-height: 14px;
   border: 1px solid #000000;
+}
+.report-block__table-cell--uneditable {
+  font-size: 11px;
 }
 .report-block__action-block {
   display: -webkit-box;
@@ -12419,4 +12417,5 @@ body {
   border: 1px solid #000000;
   border-radius: 4px;
   cursor: pointer;
+  text-decoration: none;
 }
